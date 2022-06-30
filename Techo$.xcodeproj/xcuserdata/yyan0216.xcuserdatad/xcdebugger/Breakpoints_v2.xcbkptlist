@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "39820A1A-764F-40C0-B84F-0EF8852BF8D8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8D5B10A-0934-4BCA-B7DB-6238FCD29F9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/ReportMapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "addAnnotations()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE49F367-A01C-46FE-8855-DD41701E708F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/FirebaseController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
+            landmarkName = "parseAccountSnapshot(snapshot:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "EBBCDA0C-8D86-4DE3-B943-F27845A9B04E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x10b6b020f">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0ACEA73-2DCE-4602-A329-BB6C5B62E413"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/PhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "savePhoto()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BCD6178-9B9E-445E-ACCE-8EF1B4DC71C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/FirebaseController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
+            landmarkName = "parseAccount(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3B08F9B-A3FD-45B6-91A3-AB8293A7AC83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/FirebaseController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "addListener(listener:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4169BF29-83CB-4039-8DF2-AA08691B50F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/FirebaseController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "FirebaseController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4169BF29-83CB-4039-8DF2-AA08691B50F7 - 5943a244a58870e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.allTransaction.getter : Swift.Array&lt;Techo_.Transaction&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "4169BF29-83CB-4039-8DF2-AA08691B50F7 - b0a9b80474e244e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.allTransaction.setter : Swift.Array&lt;Techo_.Transaction&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "4169BF29-83CB-4039-8DF2-AA08691B50F7 - 34f7902df4d26339"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.allTransaction.modify : Swift.Array&lt;Techo_.Transaction&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "4169BF29-83CB-4039-8DF2-AA08691B50F7 - 7617b6a2f705eb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.allTransaction.modify : Swift.Array&lt;Techo_.Transaction&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "4169BF29-83CB-4039-8DF2-AA08691B50F7 - bbbe1b66727533bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.init() -&gt; Techo_.FirebaseController"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "632">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20C4DCB0-C4E1-4634-BCCD-076F46B31322"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/ChartSetUps.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "sortData(datas:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD0463CB-E7D1-4A0C-8BF1-A3E3233EA1CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "userNotificationCenter(_:didReceive:withCompletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "300B4DA0-5732-4B16-B381-3ADC97903DA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/FirebaseController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "parseAccount(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28BC48EA-50D9-45A2-8FF2-9D78ED75B3A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/FirebaseController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "FirebaseController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "28BC48EA-50D9-45A2-8FF2-9D78ED75B3A1 - f389fc75ad23ab4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.allAccount.getter : Swift.Array&lt;Techo_.Account&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "28BC48EA-50D9-45A2-8FF2-9D78ED75B3A1 - 6c677970f9cdd7b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.allAccount.setter : Swift.Array&lt;Techo_.Account&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "28BC48EA-50D9-45A2-8FF2-9D78ED75B3A1 - 2f4524c095b234a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.allAccount.modify : Swift.Array&lt;Techo_.Account&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "28BC48EA-50D9-45A2-8FF2-9D78ED75B3A1 - 58568f47bd30f459"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.allAccount.modify : Swift.Array&lt;Techo_.Account&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "28BC48EA-50D9-45A2-8FF2-9D78ED75B3A1 - bbbe1b667275339e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.init() -&gt; Techo_.FirebaseController"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "691">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E52A2DE-52EE-4D61-A666-34B7B4A7EA12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/FirebaseController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "FirebaseController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03F02D39-2565-4D0F-A98B-22F6A127238F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/AuthenticationController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "deleteUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98BF3F17-5FE8-423F-BAA2-D6FB829C1525"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/DisplayTypeTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D27257A6-9B2A-46A5-B6DF-31D89BE464CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/CreateTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "onAddTransactionClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35003EE3-64E3-4B6D-A0C9-023C0F40BC08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/CreateTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "onAddTransactionClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "35003EE3-64E3-4B6D-A0C9-023C0F40BC08 - 50da2c545d474fbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in Techo_.CreateTransactionViewController.onAddTransactionClicked(Any) -&gt; ()"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  uuid = "35003EE3-64E3-4B6D-A0C9-023C0F40BC08 - 481a1887e7ff02e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in Techo_.CreateTransactionViewController.onAddTransactionClicked(Any) -&gt; ()"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "35003EE3-64E3-4B6D-A0C9-023C0F40BC08 - d197a053b5681ccc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Techo_.CreateTransactionViewController.onAddTransactionClicked(Any) -&gt; ()"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "35003EE3-64E3-4B6D-A0C9-023C0F40BC08 - d197a053b5681ccc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Techo_.CreateTransactionViewController.onAddTransactionClicked(Any) -&gt; ()"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "170">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10521445-5807-421C-8132-9B189173F9E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/CreateTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "onAddTransactionClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3147AE4C-08F2-4B0B-A7AD-A78392D8654D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/CreateTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "onAddTransactionClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FBB6D7C-7C88-4BD4-841B-B4272E217338"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/CreateTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "onAddTransactionClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFE5572B-F5D1-4C1D-91C9-C101559F3D9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "onAllTransactionsChange(change:transactions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E2662C5-6C6F-45A3-B2C4-6EC1D5396ED6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "onAllTransactionsChange(change:transactions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D053782-EB1C-456F-B37B-45022ACD35DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/CreateTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "onAddTransactionClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B264FD11-05B5-4834-AACD-E8EBC5ACF50C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/CreateTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "CreateTransactionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B264FD11-05B5-4834-AACD-E8EBC5ACF50C - 6d0b31867d8263e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.CreateTransactionViewController.goal.getter : Swift.Optional&lt;Techo_.Goal&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "B264FD11-05B5-4834-AACD-E8EBC5ACF50C - 572930eff1958ffc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.CreateTransactionViewController.goal.setter : Swift.Optional&lt;Techo_.Goal&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "B264FD11-05B5-4834-AACD-E8EBC5ACF50C - 3d1f2c11224085a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.CreateTransactionViewController.goal.modify : Swift.Optional&lt;Techo_.Goal&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "B264FD11-05B5-4834-AACD-E8EBC5ACF50C - f05bd896c7bb3b75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.CreateTransactionViewController.goal.modify : Swift.Optional&lt;Techo_.Goal&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "B264FD11-05B5-4834-AACD-E8EBC5ACF50C - 28b935a4fa9825d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.CreateTransactionViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Techo_.CreateTransactionViewController"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "794">
+               </Location>
+               <Location
+                  uuid = "B264FD11-05B5-4834-AACD-E8EBC5ACF50C - a99e292ed69bd8b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.CreateTransactionViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Techo_.CreateTransactionViewController&gt;"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/CreateTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "751">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89C09E6C-DF15-45FE-B46B-A4B7EC1183EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Techo$/Database/FirebaseController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "951"
+            endingLineNumber = "951"
+            landmarkName = "addTransToGoal(transaction:goal:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "89C09E6C-DF15-45FE-B46B-A4B7EC1183EF - 6d2d9aa74912ff11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.addTransToGoal(transaction: Techo_.Transaction, goal: Techo_.Goal) -&gt; Swift.Bool"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "951"
+                  endingLineNumber = "951"
+                  offsetFromSymbolStart = "281">
+               </Location>
+               <Location
+                  uuid = "89C09E6C-DF15-45FE-B46B-A4B7EC1183EF - 6d2d9aa74912ff11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Techo_.FirebaseController.addTransToGoal(transaction: Techo_.Transaction, goal: Techo_.Goal) -&gt; Swift.Bool"
+                  moduleName = "Techo$"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/yyan0216/Desktop/techos-main/Techo$/Database/FirebaseController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "951"
+                  endingLineNumber = "951"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

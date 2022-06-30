@@ -1,0 +1,24 @@
+PODS:
+  - Cards (1.4.0):
+    - Player (= 0.13.0)
+  - JJFloatingActionButton (2.5.0)
+  - Player (0.13.0)
+
+DEPENDENCIES:
+  - Cards
+  - JJFloatingActionButton
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Cards
+    - JJFloatingActionButton
+    - Player
+
+SPEC CHECKSUMS:
+  Cards: 45ae6bd0eca7b5e8016d3b6cb30b60b04753f68f
+  JJFloatingActionButton: fdc3aefb0f28f04d0f988fa25d5fac97028a9ea7
+  Player: 968d8d07d923bcdd6f7e4091c9e306eb44a5f7a4
+
+PODFILE CHECKSUM: 9d6193eaa386ecbae6339e2aef0753f307d1db52
+
+COCOAPODS: 1.11.2

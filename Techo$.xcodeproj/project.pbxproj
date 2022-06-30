@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0C721A285496A2000609CE /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C7218285496A2000609CE /* InfoTableViewCell.swift */; };
+		1A0C721B285496A3000609CE /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0C7219285496A2000609CE /* InfoTableViewCell.xib */; };
+		1A12ECE2281927A8008CAD34 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1A12ECE1281927A8008CAD34 /* FirebaseAuth */; };
+		1A12ECE4281927A8008CAD34 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1A12ECE3281927A8008CAD34 /* FirebaseFirestore */; };
+		1A12ECE6281927A8008CAD34 /* FirebaseFunctionsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1A12ECE5281927A8008CAD34 /* FirebaseFunctionsSwift-Beta */; };
+		1A12ECE8281927FD008CAD34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A12ECE7281927FD008CAD34 /* GoogleService-Info.plist */; };
+		1A12ECEC28192D60008CAD34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12ECEB28192D60008CAD34 /* LoginViewController.swift */; };
+		1A12ECEE28192ECB008CAD34 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12ECED28192ECB008CAD34 /* Extensions.swift */; };
+		1A12ECF12819301F008CAD34 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12ECF02819301F008CAD34 /* DatabaseProtocol.swift */; };
+		1A12ECF328193036008CAD34 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12ECF228193036008CAD34 /* AuthenticationController.swift */; };
+		1A12ECF528193044008CAD34 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12ECF428193044008CAD34 /* MulticastDelegate.swift */; };
+		1A12ECF728193074008CAD34 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12ECF628193074008CAD34 /* CoreDataController.swift */; };
+		1A1A0FD62851D8340015A5AC /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1A1A0FD52851D8340015A5AC /* FirebaseFirestoreSwift-Beta */; };
+		1A51382D2822779E00EFD09A /* AddDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51382C2822779E00EFD09A /* AddDelegate.swift */; };
+		1A6094D028263473005BDF87 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6094CF28263473005BDF87 /* HomeViewController.swift */; };
+		1A6094D2282649E3005BDF87 /* CreateGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6094D1282649E3005BDF87 /* CreateGoalViewController.swift */; };
+		1A6094D428265924005BDF87 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6094D328265924005BDF87 /* CreateEventViewController.swift */; };
+		1A6094D7282659A6005BDF87 /* EventCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6094D5282659A6005BDF87 /* EventCardTableViewCell.swift */; };
+		1A6094D8282659A6005BDF87 /* EventCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6094D6282659A6005BDF87 /* EventCardTableViewCell.xib */; };
+		1A6C08212850CA0800629661 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1A6C08202850CA0800629661 /* FirebaseStorageSwift-Beta */; };
+		1A7647BC282210150020E688 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7647BB282210150020E688 /* PhotoViewController.swift */; };
+		1A7647E2282234550020E688 /* AllCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7647E1282234550020E688 /* AllCategoryTableViewController.swift */; };
+		1A7647E428223C2D0020E688 /* CreateCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7647E328223C2D0020E688 /* CreateCategoryViewController.swift */; };
+		1A7D2E882820E34D0065D785 /* AllAccountsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D2E872820E34C0065D785 /* AllAccountsTableViewController.swift */; };
+		1A7D2E8A282104D80065D785 /* AllEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D2E89282104D80065D785 /* AllEventsTableViewController.swift */; };
+		1A7D2E8C282104E70065D785 /* AllGoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D2E8B282104E70065D785 /* AllGoalsTableViewController.swift */; };
+		1A7D2E8E28210E0F0065D785 /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D2E8D28210E0F0065D785 /* AddAccountViewController.swift */; };
+		1A832A9D2823B8520077F2E9 /* AccountCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A832A9B2823B8520077F2E9 /* AccountCardTableViewCell.xib */; };
+		1A832A9E2823C9830077F2E9 /* AccountCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A832A9A2823B8520077F2E9 /* AccountCardTableViewCell.swift */; };
+		1A832AA12823D08B0077F2E9 /* GoalCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A832A9F2823D08B0077F2E9 /* GoalCardTableViewCell.swift */; };
+		1A832AA22823D08B0077F2E9 /* GoalCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A832AA02823D08B0077F2E9 /* GoalCardTableViewCell.xib */; };
+		1A9F081A2848958D00DFCC5E /* ChartSetUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F08192848958D00DFCC5E /* ChartSetUps.swift */; };
+		1AA4483B282A2410004D06C5 /* DisplayTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4483A282A2410004D06C5 /* DisplayTypeTableViewController.swift */; };
+		1AA44843282A332D004D06C5 /* SortFilterFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA44842282A332D004D06C5 /* SortFilterFunctions.swift */; };
+		1AA44846282A4A5E004D06C5 /* TransactionCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA44844282A4A5E004D06C5 /* TransactionCardTableViewCell.swift */; };
+		1AA44847282A4A5E004D06C5 /* TransactionCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA44845282A4A5E004D06C5 /* TransactionCardTableViewCell.xib */; };
+		1AA59EAE284F3D01009720ED /* FirebaseDataClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59EAD284F3D01009720ED /* FirebaseDataClasses.swift */; };
+		1AA59EB0284F464B009720ED /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59EAF284F464B009720ED /* FirebaseController.swift */; };
+		1AA59EEA284F6B40009720ED /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1AA59EE9284F6B40009720ED /* FirebaseStorage */; };
+		1AA74EC1283E0E0700639DC8 /* Floaty in Frameworks */ = {isa = PBXBuildFile; productRef = 1AA74EC0283E0E0700639DC8 /* Floaty */; };
+		1AA74EC3283E238300639DC8 /* SearchTransactionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA74EC2283E238300639DC8 /* SearchTransactionTableViewController.swift */; };
+		1AAA7D242833961300E9A533 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA7D232833961300E9A533 /* ProfileViewController.swift */; };
+		1AAA7D262833A20800E9A533 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA7D252833A20800E9A533 /* FilterViewController.swift */; };
+		1AB7E6AD28348F8600E093C8 /* ReportMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7E6AC28348F8600E093C8 /* ReportMapViewController.swift */; };
+		1AB7E6AF2834A97500E093C8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7E6AE2834A97500E093C8 /* MapViewController.swift */; };
+		1AB7E6B12834D17200E093C8 /* DisplayTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7E6B02834D17200E093C8 /* DisplayTransactionViewController.swift */; };
+		1ABFB5C2284DD24D0068B288 /* ReportMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFB5C1284DD24D0068B288 /* ReportMarkerView.xib */; };
+		1ABFB5CC284DDD770068B288 /* ReportMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFB5CB284DDD770068B288 /* ReportMarkerView.swift */; };
+		1AEBFE492817F09D0015B9AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBFE482817F09D0015B9AE /* AppDelegate.swift */; };
+		1AEBFE4B2817F09D0015B9AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBFE4A2817F09D0015B9AE /* SceneDelegate.swift */; };
+		1AEBFE4D2817F09D0015B9AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBFE4C2817F09D0015B9AE /* ViewController.swift */; };
+		1AEBFE502817F09D0015B9AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBFE4E2817F09D0015B9AE /* Main.storyboard */; };
+		1AEBFE552817F09F0015B9AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBFE542817F09F0015B9AE /* Assets.xcassets */; };
+		1AEBFE582817F09F0015B9AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBFE562817F09F0015B9AE /* LaunchScreen.storyboard */; };
+		1AEE2BAE283CC0D000303D5F /* AllTransactionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEE2BAD283CC0D000303D5F /* AllTransactionTableViewController.swift */; };
+		1AEE2BB0283CDCA500303D5F /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEE2BAF283CDCA500303D5F /* LocationAnnotation.swift */; };
+		1AEE2BB2283CE2F500303D5F /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEE2BB1283CE2F500303D5F /* LocationsTableViewController.swift */; };
+		1AF0AFA2283DFCEF00A6E98D /* ReportGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0AFA1283DFCEF00A6E98D /* ReportGraphViewController.swift */; };
+		1AF0AFA5283E062100A6E98D /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 1AF0AFA4283E062100A6E98D /* Charts */; };
+		1AF48A7C2819480E000F6F63 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF48A7A2819480E000F6F63 /* DataModel.xcdatamodeld */; };
+		1AF524A5281FAC99003A60FB /* CreateTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF524A4281FAC98003A60FB /* CreateTransactionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0C7218285496A2000609CE /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		1A0C7219285496A2000609CE /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		1A12ECE7281927FD008CAD34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A12ECEB28192D60008CAD34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1A12ECED28192ECB008CAD34 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1A12ECF02819301F008CAD34 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		1A12ECF228193036008CAD34 /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		1A12ECF428193044008CAD34 /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		1A12ECF628193074008CAD34 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		1A51382C2822779E00EFD09A /* AddDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDelegate.swift; sourceTree = "<group>"; };
+		1A6094CF28263473005BDF87 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1A6094D1282649E3005BDF87 /* CreateGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalViewController.swift; sourceTree = "<group>"; };
+		1A6094D328265924005BDF87 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		1A6094D5282659A6005BDF87 /* EventCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardTableViewCell.swift; sourceTree = "<group>"; };
+		1A6094D6282659A6005BDF87 /* EventCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCardTableViewCell.xib; sourceTree = "<group>"; };
+		1A7647BB282210150020E688 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		1A7647E1282234550020E688 /* AllCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoryTableViewController.swift; sourceTree = "<group>"; };
+		1A7647E328223C2D0020E688 /* CreateCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCategoryViewController.swift; sourceTree = "<group>"; };
+		1A7D2E872820E34C0065D785 /* AllAccountsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAccountsTableViewController.swift; sourceTree = "<group>"; };
+		1A7D2E89282104D80065D785 /* AllEventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEventsTableViewController.swift; sourceTree = "<group>"; };
+		1A7D2E8B282104E70065D785 /* AllGoalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGoalsTableViewController.swift; sourceTree = "<group>"; };
+		1A7D2E8D28210E0F0065D785 /* AddAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewController.swift; sourceTree = "<group>"; };
+		1A832A9A2823B8520077F2E9 /* AccountCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCardTableViewCell.swift; sourceTree = "<group>"; };
+		1A832A9B2823B8520077F2E9 /* AccountCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCardTableViewCell.xib; sourceTree = "<group>"; };
+		1A832A9F2823D08B0077F2E9 /* GoalCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCardTableViewCell.swift; sourceTree = "<group>"; };
+		1A832AA02823D08B0077F2E9 /* GoalCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalCardTableViewCell.xib; sourceTree = "<group>"; };
+		1A9F08192848958D00DFCC5E /* ChartSetUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSetUps.swift; sourceTree = "<group>"; };
+		1AA4483A282A2410004D06C5 /* DisplayTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTypeTableViewController.swift; sourceTree = "<group>"; };
+		1AA44842282A332D004D06C5 /* SortFilterFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterFunctions.swift; sourceTree = "<group>"; };
+		1AA44844282A4A5E004D06C5 /* TransactionCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardTableViewCell.swift; sourceTree = "<group>"; };
+		1AA44845282A4A5E004D06C5 /* TransactionCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCardTableViewCell.xib; sourceTree = "<group>"; };
+		1AA59EAD284F3D01009720ED /* FirebaseDataClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDataClasses.swift; sourceTree = "<group>"; };
+		1AA59EAF284F464B009720ED /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		1AA74EC2283E238300639DC8 /* SearchTransactionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTransactionTableViewController.swift; sourceTree = "<group>"; };
+		1AAA7D232833961300E9A533 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1AAA7D252833A20800E9A533 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		1AB7E6AC28348F8600E093C8 /* ReportMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportMapViewController.swift; sourceTree = "<group>"; };
+		1AB7E6AE2834A97500E093C8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1AB7E6B02834D17200E093C8 /* DisplayTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTransactionViewController.swift; sourceTree = "<group>"; };
+		1ABFB5C1284DD24D0068B288 /* ReportMarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportMarkerView.xib; sourceTree = "<group>"; };
+		1ABFB5CB284DDD770068B288 /* ReportMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportMarkerView.swift; sourceTree = "<group>"; };
+		1AEBFE452817F09D0015B9AE /* Techo$.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techo$.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEBFE482817F09D0015B9AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AEBFE4A2817F09D0015B9AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AEBFE4C2817F09D0015B9AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AEBFE4F2817F09D0015B9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AEBFE542817F09F0015B9AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AEBFE572817F09F0015B9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AEBFE592817F09F0015B9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEE2BAD283CC0D000303D5F /* AllTransactionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransactionTableViewController.swift; sourceTree = "<group>"; };
+		1AEE2BAF283CDCA500303D5F /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		1AEE2BB1283CE2F500303D5F /* LocationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		1AF0AFA1283DFCEF00A6E98D /* ReportGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportGraphViewController.swift; sourceTree = "<group>"; };
+		1AF48A7B2819480E000F6F63 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		1AF524A4281FAC98003A60FB /* CreateTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransactionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AEBFE422817F09D0015B9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA74EC1283E0E0700639DC8 /* Floaty in Frameworks */,
+				1A12ECE2281927A8008CAD34 /* FirebaseAuth in Frameworks */,
+				1A12ECE6281927A8008CAD34 /* FirebaseFunctionsSwift-Beta in Frameworks */,
+				1A12ECE4281927A8008CAD34 /* FirebaseFirestore in Frameworks */,
+				1AF0AFA5283E062100A6E98D /* Charts in Frameworks */,
+				1A1A0FD62851D8340015A5AC /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				1A6C08212850CA0800629661 /* FirebaseStorageSwift-Beta in Frameworks */,
+				1AA59EEA284F6B40009720ED /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A12ECEF28192F91008CAD34 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1A12ECF02819301F008CAD34 /* DatabaseProtocol.swift */,
+				1A12ECF228193036008CAD34 /* AuthenticationController.swift */,
+				1A12ECF428193044008CAD34 /* MulticastDelegate.swift */,
+				1A12ECF628193074008CAD34 /* CoreDataController.swift */,
+				1AA59EAF284F464B009720ED /* FirebaseController.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		1A12ECF82819308A008CAD34 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AF48A7A2819480E000F6F63 /* DataModel.xcdatamodeld */,
+				1AA59EAD284F3D01009720ED /* FirebaseDataClasses.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		1A7D2E822820D7A50065D785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AEBFE3C2817F09C0015B9AE = {
+			isa = PBXGroup;
+			children = (
+				1AEBFE472817F09D0015B9AE /* Techo$ */,
+				1AEBFE462817F09D0015B9AE /* Products */,
+				1A7D2E822820D7A50065D785 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEBFE462817F09D0015B9AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AEBFE452817F09D0015B9AE /* Techo$.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AEBFE472817F09D0015B9AE /* Techo$ */ = {
+			isa = PBXGroup;
+			children = (
+				1A0C7218285496A2000609CE /* InfoTableViewCell.swift */,
+				1A0C7219285496A2000609CE /* InfoTableViewCell.xib */,
+				1ABFB5CB284DDD770068B288 /* ReportMarkerView.swift */,
+				1ABFB5C1284DD24D0068B288 /* ReportMarkerView.xib */,
+				1AA44844282A4A5E004D06C5 /* TransactionCardTableViewCell.swift */,
+				1AA44845282A4A5E004D06C5 /* TransactionCardTableViewCell.xib */,
+				1A832A9A2823B8520077F2E9 /* AccountCardTableViewCell.swift */,
+				1A832A9B2823B8520077F2E9 /* AccountCardTableViewCell.xib */,
+				1A832A9F2823D08B0077F2E9 /* GoalCardTableViewCell.swift */,
+				1A832AA02823D08B0077F2E9 /* GoalCardTableViewCell.xib */,
+				1A6094D5282659A6005BDF87 /* EventCardTableViewCell.swift */,
+				1A6094D6282659A6005BDF87 /* EventCardTableViewCell.xib */,
+				1A12ECF82819308A008CAD34 /* DataModel */,
+				1A12ECEF28192F91008CAD34 /* Database */,
+				1AEBFE482817F09D0015B9AE /* AppDelegate.swift */,
+				1AEBFE4A2817F09D0015B9AE /* SceneDelegate.swift */,
+				1AEBFE4C2817F09D0015B9AE /* ViewController.swift */,
+				1AEBFE4E2817F09D0015B9AE /* Main.storyboard */,
+				1AEBFE542817F09F0015B9AE /* Assets.xcassets */,
+				1AEBFE562817F09F0015B9AE /* LaunchScreen.storyboard */,
+				1AEBFE592817F09F0015B9AE /* Info.plist */,
+				1A12ECE7281927FD008CAD34 /* GoogleService-Info.plist */,
+				1A12ECED28192ECB008CAD34 /* Extensions.swift */,
+				1A7647BB282210150020E688 /* PhotoViewController.swift */,
+				1A51382C2822779E00EFD09A /* AddDelegate.swift */,
+				1A12ECEB28192D60008CAD34 /* LoginViewController.swift */,
+				1A6094CF28263473005BDF87 /* HomeViewController.swift */,
+				1AEE2BAD283CC0D000303D5F /* AllTransactionTableViewController.swift */,
+				1AB7E6B02834D17200E093C8 /* DisplayTransactionViewController.swift */,
+				1AAA7D232833961300E9A533 /* ProfileViewController.swift */,
+				1AF524A4281FAC98003A60FB /* CreateTransactionViewController.swift */,
+				1A7647E1282234550020E688 /* AllCategoryTableViewController.swift */,
+				1A7647E328223C2D0020E688 /* CreateCategoryViewController.swift */,
+				1A7D2E872820E34C0065D785 /* AllAccountsTableViewController.swift */,
+				1A7D2E8D28210E0F0065D785 /* AddAccountViewController.swift */,
+				1A7D2E89282104D80065D785 /* AllEventsTableViewController.swift */,
+				1A6094D328265924005BDF87 /* CreateEventViewController.swift */,
+				1A7D2E8B282104E70065D785 /* AllGoalsTableViewController.swift */,
+				1A6094D1282649E3005BDF87 /* CreateGoalViewController.swift */,
+				1AA4483A282A2410004D06C5 /* DisplayTypeTableViewController.swift */,
+				1AA44842282A332D004D06C5 /* SortFilterFunctions.swift */,
+				1AAA7D252833A20800E9A533 /* FilterViewController.swift */,
+				1AB7E6AE2834A97500E093C8 /* MapViewController.swift */,
+				1AEE2BAF283CDCA500303D5F /* LocationAnnotation.swift */,
+				1AEE2BB1283CE2F500303D5F /* LocationsTableViewController.swift */,
+				1AB7E6AC28348F8600E093C8 /* ReportMapViewController.swift */,
+				1AA74EC2283E238300639DC8 /* SearchTransactionTableViewController.swift */,
+				1AF0AFA1283DFCEF00A6E98D /* ReportGraphViewController.swift */,
+				1A9F08192848958D00DFCC5E /* ChartSetUps.swift */,
+			);
+			path = Techo$;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AEBFE442817F09D0015B9AE /* Techo$ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEBFE5C2817F09F0015B9AE /* Build configuration list for PBXNativeTarget "Techo$" */;
+			buildPhases = (
+				1AEBFE412817F09D0015B9AE /* Sources */,
+				1AEBFE422817F09D0015B9AE /* Frameworks */,
+				1AEBFE432817F09D0015B9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Techo$;
+			packageProductDependencies = (
+				1A12ECE1281927A8008CAD34 /* FirebaseAuth */,
+				1A12ECE3281927A8008CAD34 /* FirebaseFirestore */,
+				1A12ECE5281927A8008CAD34 /* FirebaseFunctionsSwift-Beta */,
+				1AF0AFA4283E062100A6E98D /* Charts */,
+				1AA74EC0283E0E0700639DC8 /* Floaty */,
+				1AA59EE9284F6B40009720ED /* FirebaseStorage */,
+				1A6C08202850CA0800629661 /* FirebaseStorageSwift-Beta */,
+				1A1A0FD52851D8340015A5AC /* FirebaseFirestoreSwift-Beta */,
+			);
+			productName = Techo$;
+			productReference = 1AEBFE452817F09D0015B9AE /* Techo$.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AEBFE3D2817F09C0015B9AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1AEBFE442817F09D0015B9AE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AEBFE402817F09C0015B9AE /* Build configuration list for PBXProject "Techo$" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AEBFE3C2817F09C0015B9AE;
+			packageReferences = (
+				1A12ECE0281927A8008CAD34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1AF0AFA3283E062100A6E98D /* XCRemoteSwiftPackageReference "Charts" */,
+				1AA74EBF283E0E0700639DC8 /* XCRemoteSwiftPackageReference "floaty" */,
+			);
+			productRefGroup = 1AEBFE462817F09D0015B9AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AEBFE442817F09D0015B9AE /* Techo$ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AEBFE432817F09D0015B9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA44847282A4A5E004D06C5 /* TransactionCardTableViewCell.xib in Resources */,
+				1AEBFE582817F09F0015B9AE /* LaunchScreen.storyboard in Resources */,
+				1A12ECE8281927FD008CAD34 /* GoogleService-Info.plist in Resources */,
+				1A832AA22823D08B0077F2E9 /* GoalCardTableViewCell.xib in Resources */,
+				1ABFB5C2284DD24D0068B288 /* ReportMarkerView.xib in Resources */,
+				1A0C721B285496A3000609CE /* InfoTableViewCell.xib in Resources */,
+				1A832A9D2823B8520077F2E9 /* AccountCardTableViewCell.xib in Resources */,
+				1AEBFE552817F09F0015B9AE /* Assets.xcassets in Resources */,
+				1AEBFE502817F09D0015B9AE /* Main.storyboard in Resources */,
+				1A6094D8282659A6005BDF87 /* EventCardTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEBFE412817F09D0015B9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9F081A2848958D00DFCC5E /* ChartSetUps.swift in Sources */,
+				1AEE2BB2283CE2F500303D5F /* LocationsTableViewController.swift in Sources */,
+				1A6094D028263473005BDF87 /* HomeViewController.swift in Sources */,
+				1A12ECF328193036008CAD34 /* AuthenticationController.swift in Sources */,
+				1AA44846282A4A5E004D06C5 /* TransactionCardTableViewCell.swift in Sources */,
+				1AAA7D242833961300E9A533 /* ProfileViewController.swift in Sources */,
+				1AF48A7C2819480E000F6F63 /* DataModel.xcdatamodeld in Sources */,
+				1AA59EAE284F3D01009720ED /* FirebaseDataClasses.swift in Sources */,
+				1AA44843282A332D004D06C5 /* SortFilterFunctions.swift in Sources */,
+				1A7D2E882820E34D0065D785 /* AllAccountsTableViewController.swift in Sources */,
+				1AEBFE4D2817F09D0015B9AE /* ViewController.swift in Sources */,
+				1A12ECF728193074008CAD34 /* CoreDataController.swift in Sources */,
+				1A12ECEE28192ECB008CAD34 /* Extensions.swift in Sources */,
+				1A7647E2282234550020E688 /* AllCategoryTableViewController.swift in Sources */,
+				1ABFB5CC284DDD770068B288 /* ReportMarkerView.swift in Sources */,
+				1AEE2BB0283CDCA500303D5F /* LocationAnnotation.swift in Sources */,
+				1AA59EB0284F464B009720ED /* FirebaseController.swift in Sources */,
+				1AF524A5281FAC99003A60FB /* CreateTransactionViewController.swift in Sources */,
+				1A51382D2822779E00EFD09A /* AddDelegate.swift in Sources */,
+				1A7D2E8A282104D80065D785 /* AllEventsTableViewController.swift in Sources */,
+				1A0C721A285496A2000609CE /* InfoTableViewCell.swift in Sources */,
+				1AA74EC3283E238300639DC8 /* SearchTransactionTableViewController.swift in Sources */,
+				1A6094D7282659A6005BDF87 /* EventCardTableViewCell.swift in Sources */,
+				1AEBFE492817F09D0015B9AE /* AppDelegate.swift in Sources */,
+				1A832AA12823D08B0077F2E9 /* GoalCardTableViewCell.swift in Sources */,
+				1A12ECEC28192D60008CAD34 /* LoginViewController.swift in Sources */,
+				1AB7E6AD28348F8600E093C8 /* ReportMapViewController.swift in Sources */,
+				1A7D2E8E28210E0F0065D785 /* AddAccountViewController.swift in Sources */,
+				1AEBFE4B2817F09D0015B9AE /* SceneDelegate.swift in Sources */,
+				1A7647E428223C2D0020E688 /* CreateCategoryViewController.swift in Sources */,
+				1A6094D2282649E3005BDF87 /* CreateGoalViewController.swift in Sources */,
+				1AF0AFA2283DFCEF00A6E98D /* ReportGraphViewController.swift in Sources */,
+				1AEE2BAE283CC0D000303D5F /* AllTransactionTableViewController.swift in Sources */,
+				1A6094D428265924005BDF87 /* CreateEventViewController.swift in Sources */,
+				1A7647BC282210150020E688 /* PhotoViewController.swift in Sources */,
+				1A12ECF12819301F008CAD34 /* DatabaseProtocol.swift in Sources */,
+				1AAA7D262833A20800E9A533 /* FilterViewController.swift in Sources */,
+				1A832A9E2823C9830077F2E9 /* AccountCardTableViewCell.swift in Sources */,
+				1A7D2E8C282104E70065D785 /* AllGoalsTableViewController.swift in Sources */,
+				1AB7E6B12834D17200E093C8 /* DisplayTransactionViewController.swift in Sources */,
+				1AB7E6AF2834A97500E093C8 /* MapViewController.swift in Sources */,
+				1AA4483B282A2410004D06C5 /* DisplayTypeTableViewController.swift in Sources */,
+				1A12ECF528193044008CAD34 /* MulticastDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AEBFE4E2817F09D0015B9AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEBFE4F2817F09D0015B9AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AEBFE562817F09F0015B9AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEBFE572817F09F0015B9AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AEBFE5A2817F09F0015B9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AEBFE5B2817F09F0015B9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AEBFE5D2817F09F0015B9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Techo$/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Techo-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AEBFE5E2817F09F0015B9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Techo$/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Techo-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEBFE402817F09C0015B9AE /* Build configuration list for PBXProject "Techo$" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEBFE5A2817F09F0015B9AE /* Debug */,
+				1AEBFE5B2817F09F0015B9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEBFE5C2817F09F0015B9AE /* Build configuration list for PBXNativeTarget "Techo$" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEBFE5D2817F09F0015B9AE /* Debug */,
+				1AEBFE5E2817F09F0015B9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A12ECE0281927A8008CAD34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
+		1AA74EBF283E0E0700639DC8 /* XCRemoteSwiftPackageReference "floaty" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kciter/floaty.git";
+			requirement = {
+				kind = revision;
+				revision = 6fab04721056957d6a402f5bb28191640c3bc6d6;
+			};
+		};
+		1AF0AFA3283E062100A6E98D /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A12ECE1281927A8008CAD34 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A12ECE0281927A8008CAD34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1A12ECE3281927A8008CAD34 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A12ECE0281927A8008CAD34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1A12ECE5281927A8008CAD34 /* FirebaseFunctionsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A12ECE0281927A8008CAD34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsSwift-Beta";
+		};
+		1A1A0FD52851D8340015A5AC /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A12ECE0281927A8008CAD34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		1A6C08202850CA0800629661 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A12ECE0281927A8008CAD34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+		1AA59EE9284F6B40009720ED /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A12ECE0281927A8008CAD34 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		1AA74EC0283E0E0700639DC8 /* Floaty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AA74EBF283E0E0700639DC8 /* XCRemoteSwiftPackageReference "floaty" */;
+			productName = Floaty;
+		};
+		1AF0AFA4283E062100A6E98D /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AF0AFA3283E062100A6E98D /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1AF48A7A2819480E000F6F63 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AF48A7B2819480E000F6F63 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 1AF48A7B2819480E000F6F63 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AEBFE3D2817F09C0015B9AE /* Project object */;
+}
